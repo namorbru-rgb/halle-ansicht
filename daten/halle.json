@@ -2,7 +2,7 @@
   "schema_version": 1,
   "stand": "2026-11-11",
   "einheit": "m",
-  "hinweis": "Alle Lagen und Masse sind Schätzungen aus Fotos und Hallenplan (Roman 11.11.2026), Korrekturen Roman 2026-11-11 14:53/14:54 eingearbeitet (Tor 1 in der linken Längswand, Maschinenabstände 1.5–2.5 m, je ein Palettenplatz links/rechts vor jeder Maschine, Werkzeugbereich direkt an der Reihe) sowie Maschinenliste Gabriela 2026-11-11 (Brother 3, Quaser 2, Hurco 1/3/7/8, Index; Quaser 1 ausser Betrieb). Offene Punkte: docs/FRAGEN.md. Koordinaten: Ursprung = vordere linke Innenecke (Stirnwand/linke Längswand), x nach rechts, y nach hinten. position = vordere linke Ecke des Objekts.; Ist-Korrekturen Roman 2026-11-21: Werkbank + Paletten Hurco 7 1.5 m in den Gang, Fertigteillager + KLT-Stapel 90° im Uhrzeigersinn",
+  "hinweis": "Alle Lagen und Masse sind Schätzungen aus Fotos und Hallenplan (Roman 11.11.2026), Korrekturen Roman 2026-11-11 14:53/14:54 eingearbeitet (Tor 1 in der linken Längswand, Maschinenabstände 1.5–2.5 m, je ein Palettenplatz links/rechts vor jeder Maschine, Werkzeugbereich direkt an der Reihe) sowie Maschinenliste Gabriela 2026-11-11 (Brother 3, Quaser 2, Hurco 1/3/7/8, Index; Quaser 1 ausser Betrieb). Offene Punkte: docs/FRAGEN.md. Koordinaten: Ursprung = vordere linke Innenecke (Stirnwand/linke Längswand), x nach rechts, y nach hinten. position = vordere linke Ecke des Objekts.; Ist-Korrekturen Roman 2026-11-21: Werkbank + Paletten Hurco 7 1.5 m in den Gang, Fertigteillager + KLT-Stapel 90° im Uhrzeigersinn; Ist-Korrektur Roman 2026-11-21 09:49: alle Werkbänke vor den Maschinen (mit Paletten) 1.5 m in den Gang wie bei Hurco 7",
   "meta": {
     "positionBezug": "ecke",
     "hinweis": "Nur für den App-Loader: position ist die vordere linke Ecke, nicht die Mitte (siehe docs/SCHEMA.md)."
@@ -50,13 +50,13 @@
       "typ": "arbeitsplatz",
       "untertyp": "werkbank",
       "seite": "links",
-      "position": { "x": 3.4, "y": 61.6 },
+      "position": { "x": 4.9, "y": 61.6 },
       "groesse": { "b": 0.7, "t": 1.2, "h": 0.9 },
       "rotation": 0,
       "front": "-x",
       "fotos": ["roman-05-hurco8.jpg"],
       "notizen": "Werkbank mit Lochwand zwischen den beiden Palettenplätzen vor der Maschine (links Rohmaterial, rechts Fertigteile), Arbeitsseite zur Maschine, Lochwand zum Gang (Roman 2026-11-12 14:05). Ersetzt die seitliche Lage aus Runde 3.",
-      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt"
+      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)"
     },
     {
       "id": "regal-kleinteile-hurco-7",
@@ -123,13 +123,13 @@
       "typ": "arbeitsplatz",
       "untertyp": "werkbank",
       "seite": "links",
-      "position": { "x": 3.3, "y": 51.4 },
+      "position": { "x": 4.8, "y": 51.4 },
       "groesse": { "b": 0.7, "t": 1.0, "h": 0.9 },
       "rotation": 0,
       "front": "-x",
       "fotos": ["roman-07-hurco3.jpg", "roman-08-hurco3-b.jpg"],
       "notizen": "Werkbank mit Lochwand zwischen den beiden Palettenplätzen vor der Maschine (links Rohmaterial, rechts Fertigteile), Arbeitsseite zur Maschine, Lochwand zum Gang (Roman 2026-11-12 14:05). Ersetzt die seitliche Lage aus Runde 3.",
-      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt"
+      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.3)"
     },
     {
       "id": "quaser-1",
@@ -155,13 +155,13 @@
       "typ": "arbeitsplatz",
       "untertyp": "werkbank",
       "seite": "links",
-      "position": { "x": 3.4, "y": 46.2 },
+      "position": { "x": 4.9, "y": 46.2 },
       "groesse": { "b": 0.7, "t": 1.4, "h": 0.9 },
       "rotation": 0,
       "front": "-x",
       "fotos": ["roman-10-quaser1.jpg"],
       "notizen": "Werkbank mit Lochwand zwischen den beiden Palettenplätzen vor der Maschine (links Rohmaterial, rechts Fertigteile), Arbeitsseite zur Maschine, Lochwand zum Gang (Roman 2026-11-12 14:05). Ersetzt die seitliche Lage aus Runde 3.",
-      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt"
+      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)"
     },
     {
       "id": "quaser-2",
@@ -185,13 +185,13 @@
       "typ": "arbeitsplatz",
       "untertyp": "werkbank",
       "seite": "links",
-      "position": { "x": 3.4, "y": 41.0 },
+      "position": { "x": 4.9, "y": 41.0 },
       "groesse": { "b": 0.7, "t": 1.4, "h": 0.9 },
       "rotation": 0,
       "front": "-x",
       "fotos": ["roman-09-quaser2.jpg"],
       "notizen": "Werkbank mit Lochwand zwischen den beiden Palettenplätzen vor der Maschine (links Rohmaterial, rechts Fertigteile), Arbeitsseite zur Maschine, Lochwand zum Gang (Roman 2026-11-12 14:05). Ersetzt die seitliche Lage aus Runde 3.",
-      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt"
+      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)"
     },
     {
       "id": "regal-kleinteile-quaser-2",
@@ -245,13 +245,13 @@
       "typ": "arbeitsplatz",
       "untertyp": "werkbank",
       "seite": "links",
-      "position": { "x": 3.5, "y": 35.6 },
+      "position": { "x": 5.0, "y": 35.6 },
       "groesse": { "b": 0.7, "t": 1.6, "h": 0.9 },
       "rotation": 0,
       "front": "-x",
       "fotos": ["roman-11-hurco1.jpg"],
       "notizen": "Werkbank mit Lochwand zwischen den beiden Palettenplätzen vor der Maschine (links Rohmaterial, rechts Fertigteile), Arbeitsseite zur Maschine, Lochwand zum Gang (Roman 2026-11-12 14:05). Ersetzt die seitliche Lage aus Runde 3.",
-      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt"
+      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.5)"
     },
     {
       "id": "brother-3",
@@ -292,12 +292,12 @@
       "typ": "arbeitsplatz",
       "untertyp": "werkbank",
       "seite": "links",
-      "position": { "x": 4.2, "y": 28.9 },
+      "position": { "x": 5.7, "y": 28.9 },
       "groesse": { "b": 1.0, "t": 2.5, "h": 0.9 },
       "rotation": 0,
       "fotos": ["roman-13-brother-1-2.jpg"],
       "notizen": "Werktische mit Lochwand vor beiden Brother, gangseitig vor den Palettenplätzen; Rollwagen mit Spannvorrichtungen, Gitterboxen mit Karton und Fertigteilen.",
-      "quelle": "geschätzt aus Foto roman-13-brother-1-2.jpg (korr. 2026-11-12 UMFELD: auf den Zwischenraum Brother 2/3 gekürzt, Türen nicht mehr mittig verdeckt; t 5.1 → 2.5)"
+      "quelle": "geschätzt aus Foto roman-13-brother-1-2.jpg (korr. 2026-11-12 UMFELD: auf den Zwischenraum Brother 2/3 gekürzt, Türen nicht mehr mittig verdeckt; t 5.1 → 2.5); Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 4.2)"
     },
     {
       "id": "palettenplatz-hurco-8-links",
@@ -307,12 +307,12 @@
       "seite": "links",
       "teil_von": "hurco-8",
       "inhalt": "Rohmaterial",
-      "position": { "x": 3.4, "y": 60.7 },
+      "position": { "x": 4.9, "y": 60.7 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-05-hurco8.jpg"],
       "notizen": "Europalette vor der Maschinenfront, links aus Bedienersicht (vorne, kleineres y). Inhalt Rohmaterial (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -323,12 +323,12 @@
       "seite": "links",
       "teil_von": "hurco-8",
       "inhalt": "Fertigteile",
-      "position": { "x": 3.4, "y": 62.9 },
+      "position": { "x": 4.9, "y": 62.9 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-05-hurco8.jpg"],
       "notizen": "Europalette vor der Maschinenfront, rechts aus Bedienersicht (hinten, grösseres y). Inhalt Fertigteile (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -371,12 +371,12 @@
       "seite": "links",
       "teil_von": "hurco-3",
       "inhalt": "Rohmaterial",
-      "position": { "x": 3.3, "y": 50.5 },
+      "position": { "x": 4.8, "y": 50.5 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-07-hurco3.jpg", "roman-08-hurco3-b.jpg"],
       "notizen": "Europalette vor der Maschinenfront, links aus Bedienersicht (vorne, kleineres y). Inhalt Rohmaterial (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.3)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -387,12 +387,12 @@
       "seite": "links",
       "teil_von": "hurco-3",
       "inhalt": "Fertigteile",
-      "position": { "x": 3.3, "y": 52.5 },
+      "position": { "x": 4.8, "y": 52.5 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-07-hurco3.jpg", "roman-08-hurco3-b.jpg"],
       "notizen": "Europalette vor der Maschinenfront, rechts aus Bedienersicht (hinten, grösseres y). Inhalt Fertigteile (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.3)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -403,12 +403,12 @@
       "seite": "links",
       "teil_von": "quaser-1",
       "inhalt": "Rohmaterial",
-      "position": { "x": 3.4, "y": 45.3 },
+      "position": { "x": 4.9, "y": 45.3 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-10-quaser1.jpg"],
       "notizen": "Europalette vor der Maschinenfront, links aus Bedienersicht (vorne, kleineres y). Inhalt Rohmaterial (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -419,12 +419,12 @@
       "seite": "links",
       "teil_von": "quaser-1",
       "inhalt": "Fertigteile",
-      "position": { "x": 3.4, "y": 47.7 },
+      "position": { "x": 4.9, "y": 47.7 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-10-quaser1.jpg"],
       "notizen": "Europalette vor der Maschinenfront, rechts aus Bedienersicht (hinten, grösseres y). Inhalt Fertigteile (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -435,12 +435,12 @@
       "seite": "links",
       "teil_von": "quaser-2",
       "inhalt": "Rohmaterial",
-      "position": { "x": 3.4, "y": 40.1 },
+      "position": { "x": 4.9, "y": 40.1 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-09-quaser2.jpg"],
       "notizen": "Europalette vor der Maschinenfront, links aus Bedienersicht (vorne, kleineres y). Inhalt Rohmaterial (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -451,12 +451,12 @@
       "seite": "links",
       "teil_von": "quaser-2",
       "inhalt": "Fertigteile",
-      "position": { "x": 3.4, "y": 42.5 },
+      "position": { "x": 4.9, "y": 42.5 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-09-quaser2.jpg"],
       "notizen": "Europalette vor der Maschinenfront, rechts aus Bedienersicht (hinten, grösseres y). Inhalt Fertigteile (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.4)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -467,12 +467,12 @@
       "seite": "links",
       "teil_von": "hurco-1",
       "inhalt": "Rohmaterial",
-      "position": { "x": 3.5, "y": 34.7 },
+      "position": { "x": 5.0, "y": 34.7 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-11-hurco1.jpg"],
       "notizen": "Europalette vor der Maschinenfront, links aus Bedienersicht (vorne, kleineres y). Inhalt Rohmaterial (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.5)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -483,12 +483,12 @@
       "seite": "links",
       "teil_von": "hurco-1",
       "inhalt": "Fertigteile",
-      "position": { "x": 3.5, "y": 37.3 },
+      "position": { "x": 5.0, "y": 37.3 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-11-hurco1.jpg"],
       "notizen": "Europalette vor der Maschinenfront, rechts aus Bedienersicht (hinten, grösseres y). Inhalt Fertigteile (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 3.5)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -499,12 +499,12 @@
       "seite": "links",
       "teil_von": "brother-3",
       "inhalt": "Rohmaterial",
-      "position": { "x": 2.8, "y": 30.9 },
+      "position": { "x": 4.3, "y": 30.9 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-13-brother-1-2.jpg"],
       "notizen": "Europalette vor der Maschinenfront, links aus Bedienersicht (vorne, kleineres y). Inhalt Rohmaterial (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 2.8)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -515,12 +515,12 @@
       "seite": "links",
       "teil_von": "brother-3",
       "inhalt": "Fertigteile",
-      "position": { "x": 2.8, "y": 31.9 },
+      "position": { "x": 4.3, "y": 31.9 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-13-brother-1-2.jpg"],
       "notizen": "Europalette vor der Maschinenfront, rechts aus Bedienersicht (hinten, grösseres y). Inhalt Fertigteile (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 2.8)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -531,12 +531,12 @@
       "seite": "links",
       "teil_von": "brother-2",
       "inhalt": "Rohmaterial",
-      "position": { "x": 2.8, "y": 27.6 },
+      "position": { "x": 4.3, "y": 27.6 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-13-brother-1-2.jpg"],
       "notizen": "Europalette vor der Maschinenfront, links aus Bedienersicht (vorne, kleineres y). Inhalt Rohmaterial (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 2.8)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -547,12 +547,12 @@
       "seite": "links",
       "teil_von": "brother-2",
       "inhalt": "Fertigteile",
-      "position": { "x": 2.8, "y": 28.6 },
+      "position": { "x": 4.3, "y": 28.6 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-13-brother-1-2.jpg"],
       "notizen": "Europalette vor der Maschinenfront, rechts aus Bedienersicht (hinten, grösseres y). Inhalt Fertigteile (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 2.8)",
       "live_faehig": ["palette", "materialplatz"]
     },
 
