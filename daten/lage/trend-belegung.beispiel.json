@@ -1,0 +1,78 @@
+{
+ "schema_version": 2,
+ "beispiel": true,
+ "stand": "2026-11-12T14:00:00+01:00",
+ "quelle": "BEISPIEL – KW 41 aus GRILL G29 (Halle ca. 47 %, H1 33 %, H3 21 %, H7 63 %, H8 49 %, Q2 62 %), KW 46 aus Beispiel-Lage, KW 42–45 erfunden",
+ "hinweis": "BEISPIELDATEN: KW 41 = Ausgangswert G29 (Oktober 2026, Basis 14 h/Tag); KW 46 = aus lage-leitung.beispiel.json (abgeschlossene Tage, Halle inkl. aller Maschinen); KW 42–45 sind erfunden. Nur Werte je Maschine und Halle, keine Personen. Master-Chief ersetzt die Datei durch die echte ohne «.beispiel».",
+ "einheit": "anteil",
+ "basis_std_je_tag": 14,
+ "wochen": [
+  {
+   "woche": "2026-W41",
+   "halle": 0.47,
+   "maschinen": {
+    "hurco-1": 0.33,
+    "hurco-3": 0.21,
+    "hurco-7": 0.63,
+    "hurco-8": 0.49,
+    "quaser-2": 0.62
+   }
+  },
+  {
+   "woche": "2026-W42",
+   "halle": 0.48,
+   "maschinen": {
+    "hurco-1": 0.35,
+    "hurco-3": 0.24,
+    "hurco-7": 0.6,
+    "hurco-8": 0.52,
+    "quaser-2": 0.58
+   }
+  },
+  {
+   "woche": "2026-W43",
+   "halle": 0.5,
+   "maschinen": {
+    "hurco-1": 0.31,
+    "hurco-3": 0.27,
+    "hurco-7": 0.66,
+    "hurco-8": 0.55,
+    "quaser-2": 0.61
+   }
+  },
+  {
+   "woche": "2026-W44",
+   "halle": 0.51,
+   "maschinen": {
+    "hurco-1": 0.38,
+    "hurco-3": 0.25,
+    "hurco-7": 0.64,
+    "hurco-8": 0.51,
+    "quaser-2": 0.65
+   }
+  },
+  {
+   "woche": "2026-W45",
+   "halle": 0.53,
+   "maschinen": {
+    "hurco-1": 0.36,
+    "hurco-3": 0.3,
+    "hurco-7": 0.68,
+    "hurco-8": 0.57,
+    "quaser-2": 0.63
+   }
+  },
+  {
+   "woche": "2026-W46",
+   "halle": 0.35,
+   "maschinen": {
+    "hurco-1": 0.23,
+    "hurco-3": 0.19,
+    "hurco-7": 0.46,
+    "hurco-8": 0.87,
+    "quaser-2": 0.89
+   },
+   "laufend": true
+  }
+ ]
+}

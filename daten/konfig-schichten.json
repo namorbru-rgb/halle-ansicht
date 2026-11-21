@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "stand": "2026-11-11",
+  "quelle": "Master-Chief GRILL G13: 2 Schichten seit 2026-10-19; Spätschicht ca. 11:20–20:00 aus Präsenzzeit. Frühschicht-Zeiten nicht belegt.",
+  "gueltig_ab": "2026-10-19",
+  "arbeitstage": ["Mo", "Di", "Mi", "Do", "Fr"],
+  "schichten": [
+    { "id": "F", "name": "Frühschicht", "von": "06:00", "bis": "14:30", "beispiel": true, "hinweis": "Zeiten nicht belegt, Beispielwert" },
+    { "id": "S", "name": "Spätschicht", "von": "11:20", "bis": "20:00", "beispiel": false, "hinweis": "ca., aus Präsenzzeit (Master-Chief)" }
+  ],
+  "betriebszeit_std_je_tag": 14,
+  "betriebszeit_hinweis": "14 h laut Ausgangswert G29 (Oktober 2026); bis zur Bestätigung der Frühschicht-Zeiten massgebend"
+}

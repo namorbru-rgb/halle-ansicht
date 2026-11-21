@@ -1,0 +1,14 @@
+{
+ "dateien": [
+  "halle.json",
+  "zuordnung-abteilung.json",
+  "konfig-schichten.json",
+  "namen-sk.json",
+  "lage/lage-leitung.beispiel.json",
+  "lage/lage-team.beispiel.json",
+  "lage/plan-2026-W46.beispiel.json",
+  "lage/trend-belegung.beispiel.json",
+  "fluss/fluesse.json",
+  "varianten/beispiel-saege-mittelgang.json"
+ ]
+}

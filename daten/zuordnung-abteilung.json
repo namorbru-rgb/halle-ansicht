@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "beispiel": true,
+  "stand": "2026-11-11",
+  "quelle": "BEISPIEL (ORCHESTRATOR, GRILL G8): Werte von ZER_ZSP_Abteilung angenommen = Namen aus halle.json. Master-Chief ersetzt die Datei durch die echten FileMaker-Werte (MASCHINENLISTE).",
+  "zuordnung": {
+    "Hurco 1": "hurco-1",
+    "Hurco 3": "hurco-3",
+    "Hurco 7": "hurco-7",
+    "Hurco 8": "hurco-8",
+    "Quaser 1": "quaser-1",
+    "Quaser 2": "quaser-2",
+    "Brother 2": "brother-2",
+    "Brother 3": "brother-3",
+    "Index": "index"
+  },
+  "ohne_objekt": ["Výroba", "Odhrotovanie", "Rezanie", "Balenie"],
+  "hinweis": "ohne_objekt = Tafel-Bereiche aus Foto roman-20, Zuordnung zu halle.json-Bereichen (Entgraten, Säge, Verpackung) noch offen."
+}

@@ -1,0 +1,459 @@
+{
+  "schema_version": 2,
+  "beispiel": true,
+  "stand": "2026-11-12T14:00:00+01:00",
+  "quelle": "BEISPIEL – Format wie FileMaker ERFASSUNG (Export Master-Chief)",
+  "hinweis": "BEISPIELDATEN: alle Werte, Aufträge und Artikel sind erfunden (Platzhalter «Beispiel A» …). Master-Chief ersetzt die Datei durch die echte ohne «.beispiel».",
+  "zeitraum": {
+    "von": "2026-11-09",
+    "bis": "2026-11-15"
+  },
+  "belegung": [
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-09",
+      "stunden": 12.5,
+      "menge": 118,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0411",
+        "artikel": "Beispiel-Modulrahmen MR-120",
+        "soll_min_je_stueck": 6
+      }
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-10",
+      "stunden": 13,
+      "menge": 124,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0411",
+        "artikel": "Beispiel-Modulrahmen MR-120",
+        "soll_min_je_stueck": 6
+      }
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-11",
+      "stunden": 11,
+      "menge": 96,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0411",
+        "artikel": "Beispiel-Modulrahmen MR-120",
+        "soll_min_je_stueck": 6
+      }
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-12",
+      "stunden": 6.5,
+      "menge": 60,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0411",
+        "artikel": "Beispiel-Modulrahmen MR-120",
+        "soll_min_je_stueck": 6
+      }
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-12",
+      "stunden": 1.5,
+      "menge": 0,
+      "typ": "produktion",
+      "taetigkeit": "umruesten",
+      "operation": {
+        "auftrag": "BSP-0411",
+        "artikel": "Beispiel-Modulrahmen MR-120",
+        "soll_min_je_stueck": 6
+      }
+    },
+    {
+      "abteilung": "Hurco 7",
+      "datum": "2026-11-09",
+      "stunden": 9,
+      "menge": 52,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0415",
+        "artikel": "Beispiel-Gehäuse G-7",
+        "soll_min_je_stueck": 9
+      }
+    },
+    {
+      "abteilung": "Hurco 7",
+      "datum": "2026-11-10",
+      "stunden": 10.5,
+      "menge": 64,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0415",
+        "artikel": "Beispiel-Gehäuse G-7",
+        "soll_min_je_stueck": 9
+      }
+    },
+    {
+      "abteilung": "Hurco 7",
+      "datum": "2026-11-10",
+      "stunden": 2.0,
+      "menge": 0,
+      "typ": "produktion",
+      "taetigkeit": "warten",
+      "operation": {
+        "auftrag": "BSP-0415",
+        "artikel": "Beispiel-Gehäuse G-7",
+        "soll_min_je_stueck": 9
+      }
+    },
+    {
+      "abteilung": "Hurco 7",
+      "datum": "2026-11-12",
+      "stunden": 5,
+      "menge": 30,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0415",
+        "artikel": "Beispiel-Gehäuse G-7",
+        "soll_min_je_stueck": 9
+      }
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-09",
+      "stunden": 2.5,
+      "menge": 0,
+      "typ": "produktion",
+      "taetigkeit": "einrichten",
+      "operation": {
+        "auftrag": "BSP-0420",
+        "artikel": "Beispiel-Alu-Profil P-30",
+        "soll_min_je_stueck": 4
+      }
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-09",
+      "stunden": 1.5,
+      "menge": 20,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0420",
+        "artikel": "Beispiel-Alu-Profil P-30",
+        "soll_min_je_stueck": 4
+      }
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-10",
+      "stunden": 4,
+      "menge": 55,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0420",
+        "artikel": "Beispiel-Alu-Profil P-30",
+        "soll_min_je_stueck": 4
+      }
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-12",
+      "stunden": 3.5,
+      "menge": 48,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0420",
+        "artikel": "Beispiel-Alu-Profil P-30",
+        "soll_min_je_stueck": 4
+      }
+    },
+    {
+      "abteilung": "Quaser 2",
+      "datum": "2026-11-09",
+      "stunden": 12,
+      "menge": 140,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0422",
+        "artikel": "Beispiel-Frontcover F-2",
+        "soll_min_je_stueck": 5
+      }
+    },
+    {
+      "abteilung": "Quaser 2",
+      "datum": "2026-11-10",
+      "stunden": 12.5,
+      "menge": 150,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0422",
+        "artikel": "Beispiel-Frontcover F-2",
+        "soll_min_je_stueck": 5
+      }
+    },
+    {
+      "abteilung": "Quaser 2",
+      "datum": "2026-11-10",
+      "stunden": 1.5,
+      "menge": 0,
+      "typ": "produktion",
+      "taetigkeit": "einrichten",
+      "operation": {
+        "auftrag": "BSP-0422",
+        "artikel": "Beispiel-Frontcover F-2",
+        "soll_min_je_stueck": 5
+      }
+    },
+    {
+      "abteilung": "Quaser 2",
+      "datum": "2026-11-11",
+      "stunden": 13,
+      "menge": 156,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0422",
+        "artikel": "Beispiel-Frontcover F-2",
+        "soll_min_je_stueck": 5
+      }
+    },
+    {
+      "abteilung": "Quaser 2",
+      "datum": "2026-11-11",
+      "stunden": 1.0,
+      "menge": 0,
+      "typ": "produktion",
+      "taetigkeit": "warten",
+      "operation": {
+        "auftrag": "BSP-0422",
+        "artikel": "Beispiel-Frontcover F-2",
+        "soll_min_je_stueck": 5
+      }
+    },
+    {
+      "abteilung": "Quaser 2",
+      "datum": "2026-11-12",
+      "stunden": 6,
+      "menge": 70,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0422",
+        "artikel": "Beispiel-Frontcover F-2",
+        "soll_min_je_stueck": 5
+      }
+    },
+    {
+      "objekt_id": "hurco-1",
+      "datum": "2026-11-09",
+      "stunden": 5,
+      "menge": 90,
+      "typ": "produktion",
+      "taetigkeit": null,
+      "operation": {
+        "auftrag": "BSP-0425",
+        "artikel": "Beispiel-Deckel D-1",
+        "soll_min_je_stueck": 3
+      }
+    },
+    {
+      "objekt_id": "hurco-1",
+      "datum": "2026-11-11",
+      "stunden": 4.5,
+      "menge": 60,
+      "typ": "produktion",
+      "taetigkeit": null,
+      "operation": {
+        "auftrag": "BSP-0420",
+        "artikel": "Beispiel-Alu-Profil P-30",
+        "soll_min_je_stueck": 4
+      }
+    },
+    {
+      "objekt_id": "hurco-1",
+      "datum": "2026-11-11",
+      "stunden": 1.0,
+      "menge": 0,
+      "typ": "produktion",
+      "taetigkeit": "umruesten",
+      "operation": {
+        "auftrag": "BSP-0420",
+        "artikel": "Beispiel-Alu-Profil P-30",
+        "soll_min_je_stueck": 4
+      }
+    },
+    {
+      "objekt_id": "hurco-1",
+      "datum": "2026-11-12",
+      "stunden": 3,
+      "menge": 50,
+      "typ": "produktion",
+      "taetigkeit": null,
+      "operation": {
+        "auftrag": "BSP-0425",
+        "artikel": "Beispiel-Deckel D-1",
+        "soll_min_je_stueck": 3
+      }
+    },
+    {
+      "abteilung": "Brother 3",
+      "datum": "2026-11-09",
+      "stunden": 6,
+      "menge": 160,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0430",
+        "artikel": "Beispiel-Winkel W-5",
+        "soll_min_je_stueck": 2
+      }
+    },
+    {
+      "abteilung": "Brother 3",
+      "datum": "2026-11-10",
+      "stunden": 1.5,
+      "menge": 0,
+      "typ": "sonstiges",
+      "taetigkeit": "sonstiges",
+      "operation": null
+    },
+    {
+      "abteilung": "Brother 3",
+      "datum": "2026-11-12",
+      "stunden": 2,
+      "menge": 50,
+      "typ": "produktion",
+      "taetigkeit": "produktion",
+      "operation": {
+        "auftrag": "BSP-0430",
+        "artikel": "Beispiel-Winkel W-5",
+        "soll_min_je_stueck": 2
+      }
+    }
+  ],
+  "ausser_betrieb": [
+    {
+      "objekt_id": "quaser-1",
+      "seit": "2026-05",
+      "grund": "Beispieltext: seit über 6 Monaten ausser Betrieb (GRILL G23)"
+    }
+  ],
+  "gruende": [
+    {
+      "objekt_id": "hurco-7",
+      "datum": "2026-11-11",
+      "grund": "defekt"
+    }
+  ],
+  "paletten": [
+    {
+      "objekt_id": "palettenplatz-hurco-8-links",
+      "inhalt": "Rohteile Beispiel-Modulrahmen",
+      "stueck": 80,
+      "geschaetzt": true,
+      "reichweite_teile": 80,
+      "reichweite_std": 8,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-hurco-8-rechts",
+      "inhalt": "Beispiel-Modulrahmen MR-120",
+      "stueck": 40,
+      "geschaetzt": true,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-hurco-7-links",
+      "inhalt": "Rohteile Beispiel-Gehäuse",
+      "stueck": 36,
+      "geschaetzt": true,
+      "reichweite_teile": 36,
+      "reichweite_std": 5.4,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-hurco-7-rechts",
+      "inhalt": "Beispiel-Gehäuse G-7",
+      "stueck": 96,
+      "geschaetzt": true,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-hurco-3-links",
+      "inhalt": "Alu-Stangen Beispiel",
+      "stueck": 60,
+      "geschaetzt": true,
+      "reichweite_teile": 60,
+      "reichweite_std": 4,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-hurco-3-rechts",
+      "inhalt": "Beispiel-Alu-Profil P-30",
+      "stueck": 123,
+      "geschaetzt": true,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-quaser-2-links",
+      "inhalt": "Bleche Beispiel-Frontcover",
+      "stueck": 110,
+      "geschaetzt": true,
+      "reichweite_teile": 110,
+      "reichweite_std": 9.2,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-quaser-2-rechts",
+      "inhalt": "Beispiel-Frontcover F-2",
+      "stueck": 220,
+      "geschaetzt": true,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-hurco-1-links",
+      "inhalt": "Rohteile Beispiel-Deckel",
+      "stueck": 45,
+      "geschaetzt": true,
+      "reichweite_teile": 45,
+      "reichweite_std": 2.3,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-hurco-1-rechts",
+      "inhalt": "Beispiel-Deckel D-1",
+      "stueck": 140,
+      "geschaetzt": true,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-brother-3-links",
+      "inhalt": "Rohteile Beispiel-Winkel",
+      "stueck": 150,
+      "geschaetzt": true,
+      "reichweite_teile": 150,
+      "reichweite_std": 5,
+      "stand": "2026-11-12T14:00:00+01:00"
+    },
+    {
+      "objekt_id": "palettenplatz-brother-3-rechts",
+      "inhalt": "Beispiel-Winkel W-5",
+      "stueck": 210,
+      "geschaetzt": true,
+      "stand": "2026-11-12T14:00:00+01:00"
+    }
+  ]
+}

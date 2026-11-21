@@ -1,0 +1,414 @@
+{
+  "schema_version": 2,
+  "beispiel": true,
+  "woche": "2026-W46",
+  "stand": "2026-11-09T07:00:00+01:00",
+  "quelle": "BEISPIEL – Wochenplan (Format PLAN-PHASE2 §2.3), Werte erfunden",
+  "hinweis": "BEISPIELDATEN: alle Werte, Aufträge, Artikel und Vornamen sind erfunden (Platzhalter «Beispiel A» …). Master-Chief ersetzt die Datei durch die echte ohne «.beispiel».",
+  "eintraege": [
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-09",
+      "schicht": "F",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": {
+        "wer": "Beispiel A",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel A"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-10",
+      "schicht": "F",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": null,
+      "bediener": "Beispiel A"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-11",
+      "schicht": "F",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": null,
+      "bediener": "Beispiel A"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-12",
+      "schicht": "F",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": null,
+      "bediener": "Beispiel A"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-13",
+      "schicht": "F",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": null,
+      "bediener": "Beispiel A"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-09",
+      "schicht": "S",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": {
+        "wer": "Beispiel B",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel B"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-10",
+      "schicht": "S",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": null,
+      "bediener": "Beispiel B"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-11",
+      "schicht": "S",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": null,
+      "bediener": "Beispiel B"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-12",
+      "schicht": "S",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": null,
+      "bediener": "Beispiel B"
+    },
+    {
+      "objekt_id": "hurco-8",
+      "datum": "2026-11-13",
+      "schicht": "S",
+      "artikel": "Beispiel-Modulrahmen MR-120",
+      "auftrag": "BSP-0411",
+      "soll_stueck": 60,
+      "einrichten": null,
+      "bediener": "Beispiel B"
+    },
+    {
+      "objekt_id": "hurco-7",
+      "datum": "2026-11-09",
+      "schicht": "F",
+      "artikel": "Beispiel-Gehäuse G-7",
+      "auftrag": "BSP-0415",
+      "soll_stueck": 55,
+      "einrichten": {
+        "wer": "Beispiel C",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel C"
+    },
+    {
+      "objekt_id": "hurco-7",
+      "datum": "2026-11-10",
+      "schicht": "F",
+      "artikel": "Beispiel-Gehäuse G-7",
+      "auftrag": "BSP-0415",
+      "soll_stueck": 55,
+      "einrichten": null,
+      "bediener": "Beispiel C"
+    },
+    {
+      "objekt_id": "hurco-7",
+      "datum": "2026-11-11",
+      "schicht": "F",
+      "artikel": "Beispiel-Gehäuse G-7",
+      "auftrag": "BSP-0415",
+      "soll_stueck": 55,
+      "einrichten": null,
+      "bediener": "Beispiel C"
+    },
+    {
+      "objekt_id": "hurco-7",
+      "datum": "2026-11-12",
+      "schicht": "F",
+      "artikel": "Beispiel-Gehäuse G-7",
+      "auftrag": "BSP-0415",
+      "soll_stueck": 55,
+      "einrichten": null,
+      "bediener": "Beispiel C"
+    },
+    {
+      "objekt_id": "hurco-7",
+      "datum": "2026-11-13",
+      "schicht": "F",
+      "artikel": "Beispiel-Gehäuse G-7",
+      "auftrag": "BSP-0415",
+      "soll_stueck": 55,
+      "einrichten": null,
+      "bediener": "Beispiel C"
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-09",
+      "schicht": "F",
+      "artikel": "Beispiel-Alu-Profil P-30",
+      "auftrag": "BSP-0420",
+      "soll_stueck": 50,
+      "einrichten": {
+        "wer": "Beispiel E",
+        "werkzeugwagen_bereit": false
+      },
+      "bediener": "Beispiel E"
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-10",
+      "schicht": "F",
+      "artikel": "Beispiel-Alu-Profil P-30",
+      "auftrag": "BSP-0420",
+      "soll_stueck": 50,
+      "einrichten": null,
+      "bediener": "Beispiel E"
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-11",
+      "schicht": "F",
+      "artikel": "Beispiel-Alu-Profil P-30",
+      "auftrag": "BSP-0420",
+      "soll_stueck": 50,
+      "einrichten": null,
+      "bediener": "Beispiel E"
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-12",
+      "schicht": "F",
+      "artikel": "Beispiel-Alu-Profil P-30",
+      "auftrag": "BSP-0420",
+      "soll_stueck": 50,
+      "einrichten": {
+        "wer": "Beispiel E",
+        "werkzeugwagen_bereit": false
+      },
+      "bediener": "Beispiel E"
+    },
+    {
+      "objekt_id": "hurco-3",
+      "datum": "2026-11-13",
+      "schicht": "F",
+      "artikel": "Beispiel-Alu-Profil P-30",
+      "auftrag": "BSP-0420",
+      "soll_stueck": 50,
+      "einrichten": null,
+      "bediener": "Beispiel E"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-09",
+      "schicht": "F",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": {
+        "wer": "Beispiel F",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel F"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-10",
+      "schicht": "F",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": null,
+      "bediener": "Beispiel F"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-11",
+      "schicht": "F",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": null,
+      "bediener": "Beispiel F"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-12",
+      "schicht": "F",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": {
+        "wer": "Beispiel F",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel F"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-13",
+      "schicht": "F",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": null,
+      "bediener": "Beispiel F"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-09",
+      "schicht": "S",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": {
+        "wer": "Beispiel D",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel D"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-10",
+      "schicht": "S",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": null,
+      "bediener": "Beispiel D"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-11",
+      "schicht": "S",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": null,
+      "bediener": "Beispiel D"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-12",
+      "schicht": "S",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": {
+        "wer": "Beispiel F",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel D"
+    },
+    {
+      "objekt_id": "quaser-2",
+      "datum": "2026-11-13",
+      "schicht": "S",
+      "artikel": "Beispiel-Frontcover F-2",
+      "auftrag": "BSP-0422",
+      "soll_stueck": 75,
+      "einrichten": null,
+      "bediener": "Beispiel D"
+    },
+    {
+      "objekt_id": "hurco-1",
+      "datum": "2026-11-09",
+      "schicht": "F",
+      "artikel": "Beispiel-Deckel D-1",
+      "auftrag": "BSP-0425",
+      "soll_stueck": 80,
+      "einrichten": {
+        "wer": "Beispiel G",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel G"
+    },
+    {
+      "objekt_id": "hurco-1",
+      "datum": "2026-11-10",
+      "schicht": "F",
+      "artikel": "Beispiel-Deckel D-1",
+      "auftrag": "BSP-0425",
+      "soll_stueck": 80,
+      "einrichten": null,
+      "bediener": "Beispiel G",
+      "grund": "material"
+    },
+    {
+      "objekt_id": "hurco-1",
+      "datum": "2026-11-12",
+      "schicht": "F",
+      "artikel": "Beispiel-Deckel D-1",
+      "auftrag": "BSP-0425",
+      "soll_stueck": 80,
+      "einrichten": null,
+      "bediener": "Beispiel G"
+    },
+    {
+      "objekt_id": "hurco-1",
+      "datum": "2026-11-13",
+      "schicht": "F",
+      "artikel": "Beispiel-Deckel D-1",
+      "auftrag": "BSP-0425",
+      "soll_stueck": 80,
+      "einrichten": null,
+      "bediener": "Beispiel G"
+    },
+    {
+      "objekt_id": "brother-3",
+      "datum": "2026-11-09",
+      "schicht": "F",
+      "artikel": "Beispiel-Winkel W-5",
+      "auftrag": "BSP-0430",
+      "soll_stueck": 150,
+      "einrichten": {
+        "wer": "Beispiel B",
+        "werkzeugwagen_bereit": true
+      },
+      "bediener": "Beispiel B"
+    },
+    {
+      "objekt_id": "brother-3",
+      "datum": "2026-11-12",
+      "schicht": "F",
+      "artikel": "Beispiel-Winkel W-5",
+      "auftrag": "BSP-0430",
+      "soll_stueck": 150,
+      "einrichten": null,
+      "bediener": "Beispiel B"
+    },
+    {
+      "objekt_id": "brother-3",
+      "datum": "2026-11-13",
+      "schicht": "F",
+      "artikel": "Beispiel-Winkel W-5",
+      "auftrag": "BSP-0430",
+      "soll_stueck": 150,
+      "einrichten": null,
+      "bediener": "Beispiel B"
+    }
+  ]
+}

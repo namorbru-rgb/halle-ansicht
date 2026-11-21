@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>DIMEC Halle 3D</title>
+    <link rel="icon" href="data:," />
+    <script type="module" crossorigin src="./assets/index-D5F7RL2l.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CCdkvRQ8.css">
+    <link rel="modulepreload" crossorigin href="./assets/szene-D1Fx3aDS.js">
+  </head>
+  <body>
+    <div id="app">
+      <header id="kopf">
+        <h1 data-i18n="kopf.titel">DIMEC Halle 3D</h1>
+        <div id="kopf-menue">
+        <span id="quelle" class="badge" title="Datenquelle" data-i18n="kopf.lädt">lädt…</span>
+        <span id="beispiel-badge" class="badge beispiel" data-i18n="kopf.beispiel" hidden>Beispiel</span>
+        <nav class="segment" id="sicht-wahl" data-i18n-title="kopf.sicht_hinweis">
+          <a data-sicht="leitung" data-i18n="kopf.leitung">Leitung</a><a data-sicht="team" data-i18n="kopf.team">Team</a>
+        </nav>
+        <nav class="segment" id="tag-wahl" data-i18n-title="kopf.tag_titel"></nav>
+        <label class="schalter nur-leitung" data-i18n-title="kopf.planist_titel"><input type="checkbox" id="planist-schalter" checked /> <span data-i18n="kopf.planist">Plan-Ist</span></label>
+        <nav class="segment nur-leitung" id="seite-wahl"><a data-seite="halle" data-i18n="kopf.halle">3D-Halle</a><a data-seite="heatmap" data-i18n="kopf.heatmap">Heatmap</a></nav>
+        <nav class="segment" id="sprache-wahl"><a data-sprache="de">DE</a><a data-sprache="sk">SK</a></nav>
+        <span id="sk-badge" class="badge beispiel" data-i18n="kopf.sk_hinweis" hidden>SK: maschinell, nicht geprüft</span>
+        <label class="schalter"><input type="checkbox" id="live-schalter" checked /> <span data-i18n="kopf.live">Live-Layer</span></label>
+        <label class="schalter"><input type="checkbox" id="label-schalter" checked /> <span data-i18n="kopf.labels">Beschriftungen</span></label>
+        </div>
+        <button id="ansicht-reset" type="button" data-i18n="kopf.reset" data-i18n-title="kopf.reset_titel">Ansicht zurücksetzen</button>
+        <button id="menue-knopf" type="button" aria-expanded="false" aria-controls="kopf-menue" data-i18n-title="kopf.menue">☰</button>
+      </header>
+      <main id="buehne">
+        <canvas id="szene"></canvas>
+        <div id="labels"></div>
+        <div id="leiste" hidden></div>
+        <aside id="seitenpanel">
+          <nav id="reiter" role="tablist">
+            <button type="button" data-reiter="legende" role="tab" data-i18n="legende.titel">Legende</button><button type="button" data-reiter="abweichungen" role="tab" class="nur-leitung" data-i18n="reiter.abweichungen">Abweichungen</button><button type="button" data-reiter="woche" role="tab" data-i18n="reiter.woche">Woche</button><button type="button" data-reiter="fluss" role="tab" class="nur-leitung" data-i18n="reiter.fluss">Fluss</button><button type="button" data-reiter="variante" role="tab" class="nur-leitung" data-i18n="reiter.variante">Variante</button>
+          </nav>
+          <section id="legende" class="reiter-inhalt" hidden></section>
+          <section id="abweichungen" class="reiter-inhalt" hidden></section>
+          <section id="woche" class="reiter-inhalt" hidden></section>
+          <section id="fluss" class="reiter-inhalt" hidden></section>
+          <section id="variante" class="reiter-inhalt" hidden></section>
+        </aside>
+        <div id="heatmap" hidden></div>
+        <div id="hinweis" data-i18n="hinweis.bedienung">Ziehen: drehen · Rad / zwei Finger: zoomen · Rechte Maustaste: verschieben · Klick: Steckbrief</div>
+      </main>
+      <aside id="panel" class="zu">
+        <div id="panel-griff" role="button" tabindex="0" data-i18n-title="panel.griff"></div>
+        <button id="panel-zu" type="button" aria-label="Schliessen" data-i18n-title="panel.zu">×</button>
+        <div id="panel-inhalt"></div>
+      </aside>
+      <div id="lightbox" class="zu"><img alt="" /></div>
+    </div>
+  </body>
+</html>

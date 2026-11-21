@@ -1,0 +1,23 @@
+{
+ "schema_version": 1,
+ "variante": "beispiel-saege-mittelgang",
+ "basis_stand": "inhalt:cb7bc5e7",
+ "beispiel": true,
+ "hinweis": "Beispiel, nicht von Roman",
+ "beschreibung": "Säge-Platzhalter an die rechte Mittelgangkante auf Höhe Quaser 2 (y ≈ 40), um 90° gedreht (Längsseite am Gang). Säge-Standort ist offen (G48).",
+ "autor": "Leitung",
+ "aenderungen": [
+  {
+   "id": "saege",
+   "position": {
+    "x": 12.5,
+    "y": 39.5
+   },
+   "rotation": 90,
+   "groesse": {
+    "b": 1,
+    "t": 2
+   }
+  }
+ ]
+}

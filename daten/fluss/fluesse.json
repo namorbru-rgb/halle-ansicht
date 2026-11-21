@@ -1,0 +1,823 @@
+{
+ "schema_version": 1,
+ "beispiel": false,
+ "stand": "2026-11-11",
+ "quelle": "docs/input/teil-maschine-2026-11-11.md – Auszug Teil → feste Maschine/Ersatz, aktive Teile KW 47–49 (FileMaker-Stempel Aufspannung 30.09.–10.11., Teileliste 29./30.09., FileMaker-Kalkulation)",
+ "hinweis": "Nur Teile, Aufträge und Maschinen – keine Personen. Feste Maschine = Ist laut Stempel (bei ⚠ abweichend von der Teileliste). stueck_stempel = gestempelte Stück auf der festen Maschine im Zeitraum (nur Text, Häufigkeit). Weglängen rechnet die App aus halle.json (geschätzt, G17).",
+ "annahmen": [
+  {
+   "id": "familie",
+   "text": "Zuordnung Teil → Produktfamilie nach Auftragspräfix (SK-, JB-, JOE-) und Teilenamen; die Quelle hat keine Familienspalte."
+  },
+  {
+   "id": "wareneingang",
+   "text": "Material kommt über Tor Wareneingang ins Materiallager (Lage aus halle.json); der Weg je Teil ist nicht belegt."
+  },
+  {
+   "id": "saege",
+   "text": "Säge: Standort ist Platzhalter in halle.json (nicht belegt); dass jedes Teil gesägt wird, ist nicht belegt (Sägen nur bei Nr. 36, 40, 41 genannt)."
+  },
+  {
+   "id": "palette",
+   "text": "Maschine: Rohmaterial-Palette links → Bearbeitung → Fertigteil-Palette rechts; der Weg dazwischen läuft über den Gang vor der Maschine."
+  },
+  {
+   "id": "entgraten",
+   "text": "Entgraten an der Maschine (G49 c, Roman): am Tisch zwischen den Paletten, kein eigener Weg; ggf. auch an der Montage – Annahme, kein eigener Weg. Station «Entgraten / Reinigen / Schleifen» ist nicht mehr im Standardfluss."
+  },
+  {
+   "id": "montage-sk",
+   "text": "Montage der SK-Teile am Montageplatz Batteriemodul ist Annahme (Quelle nennt keine Montagestation)."
+  },
+  {
+   "id": "montage-jb",
+   "text": "JB-0002 → JB-Montage (Bereich laut halle.json); Fertigteil-Palette → Montage direkt (Entgraten an der Maschine, G49 c)."
+  },
+  {
+   "id": "joe-ohne-montage",
+   "text": "JOE-269086 (Pendellager): keine Montagestation in der Quelle – Weg direkt zur Verpackung."
+  },
+  {
+   "id": "brother",
+   "text": "Brother-Nummer unklar (FileMaker Brother1/Brother2, Angabe 11.11. «Brother 3») – Weg an Brother 3 gezeigt."
+  },
+  {
+   "id": "h8-h3",
+   "text": "Nr. 16 und 18: feste Maschine offen (Stempel auf Hurco 8 und Hurco 3) – Weg über Hurco 8 gezeigt."
+  },
+  {
+   "id": "ende",
+   "text": "Ende für alle Familien: Verpackung → Tor 1 (Warenausgang laut halle.json)."
+  },
+  {
+   "id": "weglaenge",
+   "text": "Weglängen sind Schätzungen aus halle.json (Hallenmasse nicht vermessen, G17); Linien nur entlang des Mittelgangs und seiner Randspuren."
+  }
+ ],
+ "familien": [
+  {
+   "id": "batteriemodul",
+   "titel": "Batteriemodul / KAMA-Gehäuse (SK-Aufträge)",
+   "titel_sk": "Batériový modul / skriňa KAMA (zákazky SK)",
+   "farbe": "#2f6fbf",
+   "auftraege": [
+    "SK-0009",
+    "SK-0010",
+    "SK-0011",
+    "SK-0012"
+   ],
+   "annahmen": [
+    "familie",
+    "brother",
+    "h8-h3"
+   ],
+   "folge": [
+    {
+     "station": "tor-wareneingang",
+     "annahme": "wareneingang"
+    },
+    {
+     "station": "materiallager",
+     "annahme": "wareneingang"
+    },
+    {
+     "station": "saege",
+     "annahme": "saege"
+    },
+    {
+     "palette": "links"
+    },
+    {
+     "palette": "rechts",
+     "annahme": "entgraten"
+    },
+    {
+     "station": "montage-batteriemodul",
+     "annahme": "montage-sk"
+    },
+    {
+     "station": "verpackung"
+    },
+    {
+     "station": "tor-1"
+    }
+   ],
+   "teile": [
+    {
+     "nr": 1,
+     "teil": "Mantel aussen P02",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "H3, H1, H8 (Liste)",
+     "stueck_stempel": 194,
+     "stempel_zeitraum": "30.09.–09.11.",
+     "lauf_min_je_stk": 16
+    },
+    {
+     "nr": 2,
+     "teil": "Mantel aussen P03",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "H1 (Stempel 1× 19.10.); H3, H8 (Liste)",
+     "stueck_stempel": 184,
+     "stempel_zeitraum": "30.09.–09.11.",
+     "lauf_min_je_stk": 16
+    },
+    {
+     "nr": 3,
+     "teil": "Abdeckung P01",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "H1 (Liste)",
+     "stueck_stempel": 210,
+     "stempel_zeitraum": "01.10.–06.11.",
+     "lauf_min_je_stk": 11
+    },
+    {
+     "nr": 4,
+     "teil": "Boden P01",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "H1 (Liste)",
+     "stueck_stempel": 180,
+     "stempel_zeitraum": "02.10.–05.11.",
+     "lauf_min_je_stk": 11
+    },
+    {
+     "nr": 5,
+     "teil": "Mantel innen längs P01",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "H3, H8 (Liste)",
+     "stueck_stempel": 368,
+     "stempel_zeitraum": "05.10.–04.11.",
+     "lauf_min_je_stk": 3,
+     "hinweis": "⚠ Liste H1 ↔ Stempel H7 (mit «Mantel innen kurz» vertauscht?) – dargestellt nach Stempel (Ist)"
+    },
+    {
+     "nr": 10,
+     "teil": "Obergurt kurz P01",
+     "auftraege": [
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H3 (Stempel 2×); H1, H7 (Liste)",
+     "stueck_stempel": 259,
+     "stempel_zeitraum": "06.10.–05.11.",
+     "lauf_min_je_stk": 8
+    },
+    {
+     "nr": 11,
+     "teil": "Obergurt kurz P02 V02",
+     "auftraege": [
+      "SK-0009",
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H3 (Stempel 2×); H1, H7 (Liste)",
+     "stueck_stempel": 140,
+     "stempel_zeitraum": "30.09.–23.10.",
+     "lauf_min_je_stk": 7,
+     "hinweis": "Hinweis: in der Teileliste gleiche Art.-ID 19358 wie Untergurt P04 V02"
+    },
+    {
+     "nr": 12,
+     "teil": "Oberlängsgurt P01",
+     "auftraege": [
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H3, H1 (Liste)",
+     "stueck_stempel": 300,
+     "stempel_zeitraum": "05.10.–10.11.",
+     "lauf_min_je_stk": 5
+    },
+    {
+     "nr": 13,
+     "teil": "Oberlängsgurt P02",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H3, H1, H7 (Liste)",
+     "stueck_stempel": 330,
+     "stempel_zeitraum": "05.10.–10.11.",
+     "lauf_min_je_stk": 5
+    },
+    {
+     "nr": 14,
+     "teil": "Untergurt P01",
+     "auftraege": [
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H1 (Stempel 1× 29.10.); H3, H7 (Liste)",
+     "stueck_stempel": 420,
+     "stempel_zeitraum": "01.10.–10.11.",
+     "lauf_min_je_stk": 2.5
+    },
+    {
+     "nr": 15,
+     "teil": "Untergurt P02",
+     "auftraege": [
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H3, H7, H1 (Liste)",
+     "stueck_stempel": 450,
+     "stempel_zeitraum": "02.10.–10.11.",
+     "lauf_min_je_stk": 3
+    },
+    {
+     "nr": 16,
+     "teil": "Untergurt P04 V02",
+     "auftraege": [
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H3 / H8",
+     "stueck_stempel": 130,
+     "stempel_zeitraum": "27.–28.10.",
+     "lauf_min_je_stk": 7,
+     "alternative": "hurco-3",
+     "hinweis": "⚠ Stempel auf beiden Maschinen (H3 186 Stk 08.–20.10., H8 130 Stk 27.–28.10.) – feste Maschine offen, Weg über Hurco 8 gezeigt (Annahme)"
+    },
+    {
+     "nr": 17,
+     "teil": "Mittelprofil oben P01",
+     "auftraege": [
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H3, H1, H7 (Liste)",
+     "stueck_stempel": 213,
+     "stempel_zeitraum": "09.–29.10.",
+     "lauf_min_je_stk": 5
+    },
+    {
+     "nr": 18,
+     "teil": "Mittelprofil unten P01",
+     "auftraege": [
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "H3 / H8",
+     "stueck_stempel": 62,
+     "stempel_zeitraum": "08.–20.10.",
+     "lauf_min_je_stk": 1.5,
+     "alternative": "hurco-3",
+     "hinweis": "⚠ Stempel auf beiden Maschinen (H8 62 Stk, H3 60 Stk) – feste Maschine offen, Weg über Hurco 8 gezeigt (Annahme)"
+    },
+    {
+     "nr": 23,
+     "teil": "Mantel aussen P01",
+     "auftraege": [
+      "SK-0012"
+     ],
+     "maschine": "hurco-1",
+     "maschine_quelle": "H1",
+     "ersatz": "H3, H8 (Liste)",
+     "stueck_stempel": 183,
+     "stempel_zeitraum": "08.10.–10.11.",
+     "lauf_min_je_stk": 4,
+     "hinweis": "⚠ Liste H7 ↔ Stempel H1 – dargestellt nach Stempel (Ist)"
+    },
+    {
+     "nr": 24,
+     "teil": "Mantel innen kurz P01",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-1",
+     "maschine_quelle": "H1",
+     "ersatz": "H3, H8 (Liste)",
+     "stueck_stempel": 304,
+     "stempel_zeitraum": "06.10.–09.11.",
+     "lauf_min_je_stk": 3,
+     "hinweis": "⚠ Liste H7 ↔ Stempel H1 – dargestellt nach Stempel (Ist)"
+    },
+    {
+     "nr": 27,
+     "teil": "Klemm u. Kabelf P04",
+     "auftraege": [
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-3",
+     "maschine_quelle": "H3",
+     "ersatz": "H1, H7 (Liste)",
+     "stueck_stempel": 252,
+     "stempel_zeitraum": "05.–09.11.",
+     "lauf_min_je_stk": 5,
+     "hinweis": "⚠ Liste H8 ↔ Stempel H3 – dargestellt nach Stempel (Ist)"
+    },
+    {
+     "nr": 28,
+     "teil": "Untergurt P03",
+     "auftraege": [
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-3",
+     "maschine_quelle": "H3",
+     "ersatz": "H7, H1 (Liste)",
+     "stueck_stempel": 256,
+     "stempel_zeitraum": "08.–30.10.",
+     "lauf_min_je_stk": 1.5,
+     "hinweis": "⚠ Liste H8 ↔ Stempel H3 – dargestellt nach Stempel (Ist)"
+    },
+    {
+     "nr": 30,
+     "teil": "Winkel Obergurt P01",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "quaser-2",
+     "maschine_quelle": "Q2",
+     "ersatz": "keine (Quaser 1 defekt)",
+     "stueck_stempel": 804,
+     "stempel_zeitraum": "05.10.–10.11.",
+     "lauf_min_je_stk": 2.5,
+     "hinweis": "⚠ Liste Q1 (defekt) ↔ Stempel Q2 – dargestellt nach Stempel (Ist)"
+    },
+    {
+     "nr": 31,
+     "teil": "Winkel Mittelprofil P01",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "quaser-2",
+     "maschine_quelle": "Q2",
+     "ersatz": "keine (Quaser 1 defekt)",
+     "stueck_stempel": 360,
+     "stempel_zeitraum": "06.10.–10.11.",
+     "lauf_min_je_stk": 2.5
+    },
+    {
+     "nr": 32,
+     "teil": "Gleiter rechts P01",
+     "auftraege": [
+      "SK-0009",
+      "SK-0010",
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "index",
+     "maschine_quelle": "Index",
+     "ersatz": "keine",
+     "stueck_stempel": 401,
+     "stempel_zeitraum": "30.09.–09.11.",
+     "lauf_min_je_stk": 2
+    },
+    {
+     "nr": 34,
+     "teil": "DIN7991 M5x29 (kürzen)",
+     "auftraege": [
+      "SK-0009",
+      "SK-0010",
+      "SK-0011",
+      "SK-0012",
+      "JB-0002"
+     ],
+     "maschine": "brother-3",
+     "maschine_quelle": "Brother",
+     "ersatz": "keine",
+     "stueck_stempel": 1251,
+     "stempel_zeitraum": "21.10.–09.11.",
+     "lauf_min_je_stk": 0.3,
+     "hinweis": "⚠ Nummer unklar: FileMaker Brother1/Brother2, Angabe 11.11. «Brother 3» (FileMaker: Brother3 inaktiv) – dargestellt an Brother 3 · Stück gesamt über SK- und JB-Aufträge"
+    },
+    {
+     "nr": 35,
+     "teil": "DIN7991 M5x44 (kürzen)",
+     "auftraege": [
+      "SK-0009",
+      "SK-0010",
+      "SK-0011",
+      "SK-0012",
+      "JB-0002"
+     ],
+     "maschine": "brother-3",
+     "maschine_quelle": "Brother",
+     "ersatz": "keine",
+     "stueck_stempel": 361,
+     "stempel_zeitraum": "30.09.",
+     "lauf_min_je_stk": 0.3,
+     "hinweis": "⚠ Nummer unklar: FileMaker Brother1/Brother2, Angabe 11.11. «Brother 3» (FileMaker: Brother3 inaktiv) – dargestellt an Brother 3 · Stück gesamt über SK- und JB-Aufträge"
+    }
+   ]
+  },
+  {
+   "id": "junction-box",
+   "titel": "Junction Box (JB-0002)",
+   "titel_sk": "Junction Box (JB-0002)",
+   "farbe": "#13877e",
+   "auftraege": [
+    "JB-0002"
+   ],
+   "annahmen": [
+    "familie",
+    "brother"
+   ],
+   "folge": [
+    {
+     "station": "tor-wareneingang",
+     "annahme": "wareneingang"
+    },
+    {
+     "station": "materiallager",
+     "annahme": "wareneingang"
+    },
+    {
+     "station": "saege",
+     "annahme": "saege"
+    },
+    {
+     "palette": "links"
+    },
+    {
+     "palette": "rechts",
+     "annahme": "entgraten"
+    },
+    {
+     "station": "jb-montage",
+     "annahme": "montage-jb"
+    },
+    {
+     "station": "verpackung"
+    },
+    {
+     "station": "tor-1"
+    }
+   ],
+   "teile": [
+    {
+     "nr": 6,
+     "teil": "Mantel aussen P021 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 15,
+     "stempel_zeitraum": "12.–13.10.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 7,
+     "teil": "Mantel aussen P031 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 15,
+     "stempel_zeitraum": "12.–13.10.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 8,
+     "teil": "Abdeckung P011 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 15,
+     "stempel_zeitraum": "09.–12.10.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 9,
+     "teil": "Boden P011 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "hurco-7",
+     "maschine_quelle": "H7",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 15,
+     "stempel_zeitraum": "09.10.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 19,
+     "teil": "Untergurt P031 (JB, 3 Aufspannungen)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 45,
+     "stempel_zeitraum": "01.10.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 20,
+     "teil": "Block P01 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "hurco-8",
+     "maschine_quelle": "H8",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 30,
+     "stempel_zeitraum": "19.10.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 25,
+     "teil": "Mantel aussen P011 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "hurco-1",
+     "maschine_quelle": "H1",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 15,
+     "stempel_zeitraum": "02.10.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 26,
+     "teil": "Frontcover P011 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "hurco-1",
+     "maschine_quelle": "H1",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 15,
+     "stempel_zeitraum": "02.–05.10.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 33,
+     "teil": "Gleiter rechts P011 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "maschine": "index",
+     "maschine_quelle": "Index",
+     "ersatz": "nicht belegt",
+     "stueck_stempel": 60,
+     "stempel_zeitraum": "09.–10.11.",
+     "lauf_min_je_stk": null
+    },
+    {
+     "nr": 34,
+     "teil": "DIN7991 M5x29 (kürzen)",
+     "auftraege": [
+      "SK-0009",
+      "SK-0010",
+      "SK-0011",
+      "SK-0012",
+      "JB-0002"
+     ],
+     "maschine": "brother-3",
+     "maschine_quelle": "Brother",
+     "ersatz": "keine",
+     "stueck_stempel": 1251,
+     "stempel_zeitraum": "21.10.–09.11.",
+     "lauf_min_je_stk": 0.3,
+     "hinweis": "⚠ Nummer unklar: FileMaker Brother1/Brother2, Angabe 11.11. «Brother 3» (FileMaker: Brother3 inaktiv) – dargestellt an Brother 3 · Stück gesamt über SK- und JB-Aufträge"
+    },
+    {
+     "nr": 35,
+     "teil": "DIN7991 M5x44 (kürzen)",
+     "auftraege": [
+      "SK-0009",
+      "SK-0010",
+      "SK-0011",
+      "SK-0012",
+      "JB-0002"
+     ],
+     "maschine": "brother-3",
+     "maschine_quelle": "Brother",
+     "ersatz": "keine",
+     "stueck_stempel": 361,
+     "stempel_zeitraum": "30.09.",
+     "lauf_min_je_stk": 0.3,
+     "hinweis": "⚠ Nummer unklar: FileMaker Brother1/Brother2, Angabe 11.11. «Brother 3» (FileMaker: Brother3 inaktiv) – dargestellt an Brother 3 · Stück gesamt über SK- und JB-Aufträge"
+    }
+   ],
+   "ohne_maschine": [
+    {
+     "nr": 36,
+     "teil": "Block P02 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "hinweis": "keine Maschine belegt (Operation «1. Aufspannung» ohne Maschine; nur Sägen gestempelt) – kein Weg gezeigt"
+    },
+    {
+     "nr": 37,
+     "teil": "Grundplatte P01 FR-4 (JB)",
+     "auftraege": [
+      "JB-0002"
+     ],
+     "hinweis": "keine Maschine belegt, keine CNC-Stempel – kein Weg gezeigt"
+    }
+   ]
+  },
+  {
+   "id": "frontcover",
+   "titel": "Frontcover (SK-Aufträge)",
+   "titel_sk": "Predný kryt (zákazky SK)",
+   "farbe": "#7a5cc4",
+   "auftraege": [
+    "SK-0011",
+    "SK-0012"
+   ],
+   "annahmen": [
+    "familie"
+   ],
+   "folge": [
+    {
+     "station": "tor-wareneingang",
+     "annahme": "wareneingang"
+    },
+    {
+     "station": "materiallager",
+     "annahme": "wareneingang"
+    },
+    {
+     "station": "saege",
+     "annahme": "saege"
+    },
+    {
+     "palette": "links"
+    },
+    {
+     "palette": "rechts",
+     "annahme": "entgraten"
+    },
+    {
+     "station": "montage-batteriemodul",
+     "annahme": "montage-sk"
+    },
+    {
+     "station": "verpackung"
+    },
+    {
+     "station": "tor-1"
+    }
+   ],
+   "teile": [
+    {
+     "nr": 21,
+     "teil": "Frontcover P01",
+     "auftraege": [
+      "SK-0011",
+      "SK-0012"
+     ],
+     "maschine": "hurco-1",
+     "maschine_quelle": "H1",
+     "ersatz": "H3, H8 (Liste)",
+     "stueck_stempel": 187,
+     "stempel_zeitraum": "30.09.–10.11.",
+     "lauf_min_je_stk": 8
+    },
+    {
+     "nr": 22,
+     "teil": "Frontcover P02",
+     "auftraege": [
+      "SK-0012"
+     ],
+     "maschine": "hurco-1",
+     "maschine_quelle": "H1",
+     "ersatz": "H7, H8 (Liste)",
+     "stueck_stempel": 184,
+     "stempel_zeitraum": "08.10.–09.11.",
+     "lauf_min_je_stk": 17,
+     "hinweis": "⚠ Liste H3 ↔ Stempel H1 (H3 seit Okt. eingeschränkt) – dargestellt nach Stempel (Ist)"
+    }
+   ]
+  },
+  {
+   "id": "pendellager",
+   "titel": "Pendellager (JOE-269086)",
+   "titel_sk": "Kyvné ložisko (JOE-269086)",
+   "farbe": "#c4721f",
+   "auftraege": [
+    "JOE-269086 (Rest 503)"
+   ],
+   "annahmen": [
+    "familie",
+    "joe-ohne-montage"
+   ],
+   "folge": [
+    {
+     "station": "tor-wareneingang",
+     "annahme": "wareneingang"
+    },
+    {
+     "station": "materiallager",
+     "annahme": "wareneingang"
+    },
+    {
+     "station": "saege",
+     "annahme": "saege"
+    },
+    {
+     "palette": "links"
+    },
+    {
+     "palette": "rechts",
+     "annahme": "entgraten"
+    },
+    {
+     "station": "verpackung"
+    },
+    {
+     "station": "tor-1"
+    }
+   ],
+   "teile": [
+    {
+     "nr": 29,
+     "teil": "Pendellager 963.02253",
+     "auftraege": [
+      "JOE-269086"
+     ],
+     "maschine": "quaser-2",
+     "maschine_quelle": "Q2",
+     "ersatz": "keine (Quaser 1 defekt)",
+     "stueck_stempel": 1311,
+     "stempel_zeitraum": "23.10.–10.11.",
+     "lauf_min_je_stk": 5.5,
+     "hinweis": "Kalkulation: 4 Stk je Zyklus ≈ 22 min"
+    }
+   ],
+   "ohne_maschine": [
+    {
+     "nr": 40,
+     "teil": "Lagerhülse 963.01882-4",
+     "auftraege": [
+      "JOE-269086"
+     ],
+     "hinweis": "keine CNC bei DIMEC: Sägen, Kooperation (extern), Wareneingang, OTK, Verpacken – kein Weg gezeigt"
+    },
+    {
+     "nr": 41,
+     "teil": "Federtopf 963.02252",
+     "auftraege": [
+      "JOE-269086"
+     ],
+     "hinweis": "keine CNC bei DIMEC: Sägen, Kooperation (extern), Wareneingang, OTK, Verpacken – kein Weg gezeigt"
+    }
+   ]
+  }
+ ]
+}
