@@ -2,7 +2,7 @@
   "schema_version": 1,
   "stand": "2026-11-11",
   "einheit": "m",
-  "hinweis": "Alle Lagen und Masse sind Schätzungen aus Fotos und Hallenplan (Roman 11.11.2026), Korrekturen Roman 2026-11-11 14:53/14:54 eingearbeitet (Tor 1 in der linken Längswand, Maschinenabstände 1.5–2.5 m, je ein Palettenplatz links/rechts vor jeder Maschine, Werkzeugbereich direkt an der Reihe) sowie Maschinenliste Gabriela 2026-11-11 (Brother 3, Quaser 2, Hurco 1/3/7/8, Index; Quaser 1 ausser Betrieb). Offene Punkte: docs/FRAGEN.md. Koordinaten: Ursprung = vordere linke Innenecke (Stirnwand/linke Längswand), x nach rechts, y nach hinten. position = vordere linke Ecke des Objekts.",
+  "hinweis": "Alle Lagen und Masse sind Schätzungen aus Fotos und Hallenplan (Roman 11.11.2026), Korrekturen Roman 2026-11-11 14:53/14:54 eingearbeitet (Tor 1 in der linken Längswand, Maschinenabstände 1.5–2.5 m, je ein Palettenplatz links/rechts vor jeder Maschine, Werkzeugbereich direkt an der Reihe) sowie Maschinenliste Gabriela 2026-11-11 (Brother 3, Quaser 2, Hurco 1/3/7/8, Index; Quaser 1 ausser Betrieb). Offene Punkte: docs/FRAGEN.md. Koordinaten: Ursprung = vordere linke Innenecke (Stirnwand/linke Längswand), x nach rechts, y nach hinten. position = vordere linke Ecke des Objekts.; Ist-Korrekturen Roman 2026-11-21: Werkbank + Paletten Hurco 7 1.5 m in den Gang, Fertigteillager + KLT-Stapel 90° im Uhrzeigersinn",
   "meta": {
     "positionBezug": "ecke",
     "hinweis": "Nur für den App-Loader: position ist die vordere linke Ecke, nicht die Mitte (siehe docs/SCHEMA.md)."
@@ -93,13 +93,13 @@
       "typ": "arbeitsplatz",
       "untertyp": "werkbank",
       "seite": "links",
-      "position": { "x": 3.5, "y": 56.2 },
+      "position": { "x": 5.0, "y": 56.2 },
       "groesse": { "b": 0.7, "t": 1.6, "h": 0.9 },
       "rotation": 0,
       "front": "-x",
       "fotos": ["roman-06-hurco7.jpg"],
       "notizen": "Werkbank mit Lochwand zwischen den beiden Palettenplätzen vor der Maschine (links Rohmaterial, rechts Fertigteile), Arbeitsseite zur Maschine, Lochwand zum Gang (Roman 2026-11-12 14:05). Ersetzt die seitliche Lage aus Runde 3.",
-      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt"
+      "quelle": "Lage Roman 2026-11-12 14:05: Arbeitstisch zwischen den beiden Paletten (links Rohmaterial, rechts Fertigteile), um 180° gedreht (Arbeitsseite zur Maschine, front -x); Mass geschätzt; Korrektur Roman 2026-11-21 (Handy-Screenshot): «Werkbank Paletten müssen 1,5m weiter nach Vorne da steht der Mitarbeiter» – Gruppe 1.5 m von Hurco 7 weg in den Gang (x +1.5) (alt x 3.5)"
     },
     {
       "id": "hurco-3",
@@ -339,12 +339,12 @@
       "seite": "links",
       "teil_von": "hurco-7",
       "inhalt": "Rohmaterial",
-      "position": { "x": 3.5, "y": 55.3 },
+      "position": { "x": 5.0, "y": 55.3 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-06-hurco7.jpg"],
       "notizen": "Europalette vor der Maschinenfront, links aus Bedienersicht (vorne, kleineres y). Inhalt Rohmaterial (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 (Handy-Screenshot): «Werkbank Paletten müssen 1,5m weiter nach Vorne da steht der Mitarbeiter» – Gruppe 1.5 m von Hurco 7 weg in den Gang (x +1.5) (alt x 3.5)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -355,12 +355,12 @@
       "seite": "links",
       "teil_von": "hurco-7",
       "inhalt": "Fertigteile",
-      "position": { "x": 3.5, "y": 57.9 },
+      "position": { "x": 5.0, "y": 57.9 },
       "groesse": { "b": 1.2, "t": 0.8, "h": 0.15 },
       "rotation": 0,
       "fotos": ["roman-06-hurco7.jpg"],
       "notizen": "Europalette vor der Maschinenfront, rechts aus Bedienersicht (hinten, grösseres y). Inhalt Fertigteile (Roman 2026-11-11 17:31: vor der Maschine links Rohmaterial, rechts Fertigteile, gilt für alle Maschinen).",
-      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m",
+      "quelle": "Roman 2026-11-11 17:31; Lage Roman 2026-11-11 14:54; Mass Europalette 1.2 × 0.8 m; Korrektur Roman 2026-11-21 (Handy-Screenshot): «Werkbank Paletten müssen 1,5m weiter nach Vorne da steht der Mitarbeiter» – Gruppe 1.5 m von Hurco 7 weg in den Gang (x +1.5) (alt x 3.5)",
       "live_faehig": ["palette", "materialplatz"]
     },
     {
@@ -722,13 +722,13 @@
       "typ": "regal",
       "untertyp": "palettenregal",
       "seite": "links",
-      "position": { "x": 3.6, "y": 6.0 },
-      "groesse": { "b": 1.1, "t": 2.7, "h": 3.0 },
-      "front": "+x",
+      "position": { "x": 3.5, "y": 7.5 },
+      "groesse": { "b": 2.7, "t": 1.1, "h": 3.0 },
+      "front": "-y",
       "rotation": 0,
       "fotos": ["roman-24-fertigteillager-besprechung.jpg"],
       "notizen": "Blau-oranges Palettenregal vor dem Besprechungsraum (Gangseite), nahe Tor 1: Gitterboxen, Holzkisten, «papierové kartóny», «Diely na balenie» (Teile zum Verpacken). Oben Stapel grauer KLT-Boxen.",
-      "quelle": "Lage Roman 2026-11-11 14:53 (rechts von Tor 1, neben Besprechungsraum); Mass geschätzt aus Foto roman-24-fertigteillager-besprechung.jpg; Höhe 3.0 m inkl. KLT oben, geschätzt (GRILL G41 a)",
+      "quelle": "Lage Roman 2026-11-11 14:53 (rechts von Tor 1, neben Besprechungsraum); Mass geschätzt aus Foto roman-24-fertigteillager-besprechung.jpg; Höhe 3.0 m inkl. KLT oben, geschätzt (GRILL G41 a); Korrektur Roman 2026-11-21 (Handy-Screenshot): «90° drehen im Uhrzeigersinn» – Ensemble Fertigteillager + KLT-Stapel um 90° im Uhrzeigersinn (von oben) um die gemeinsame Mitte gedreht; Ist-Konvention rotation 0: Grundfläche b/t getauscht, Front +x → -y (alt x 3.6 / y 6.0, b 1.1 × t 2.7)",
       "live_faehig": ["palette"]
     },
     {
@@ -737,12 +737,12 @@
       "typ": "lager",
       "untertyp": "bodenlager",
       "seite": "links",
-      "position": { "x": 4.9, "y": 6.0 },
-      "groesse": { "b": 1.2, "t": 2.7, "h": 1.2 },
+      "position": { "x": 3.5, "y": 6.1 },
+      "groesse": { "b": 2.7, "t": 1.2, "h": 1.2 },
       "rotation": 0,
       "fotos": ["roman-24-fertigteillager-besprechung.jpg"],
       "notizen": "Gitterboxen und Paletten vor dem Fertigteilregal, gelb markierte Fläche.",
-      "quelle": "geschätzt aus Foto roman-24-fertigteillager-besprechung.jpg",
+      "quelle": "geschätzt aus Foto roman-24-fertigteillager-besprechung.jpg; Korrektur Roman 2026-11-21 (Handy-Screenshot): «90° drehen im Uhrzeigersinn» – Ensemble Fertigteillager + KLT-Stapel um 90° im Uhrzeigersinn (von oben) um die gemeinsame Mitte gedreht; Grundfläche b/t getauscht, liegt jetzt vor dem Regal (kleineres y) (alt x 4.9 / y 6.0, b 1.2 × t 2.7)",
       "live_faehig": ["palette"]
     },
     {
