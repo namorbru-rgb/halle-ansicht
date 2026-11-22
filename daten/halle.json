@@ -2,7 +2,7 @@
   "schema_version": 1,
   "stand": "2026-11-11",
   "einheit": "m",
-  "hinweis": "Alle Lagen und Masse sind Schätzungen aus Fotos und Hallenplan (Roman 11.11.2026), Korrekturen Roman 2026-11-11 14:53/14:54 eingearbeitet (Tor 1 in der linken Längswand, Maschinenabstände 1.5–2.5 m, je ein Palettenplatz links/rechts vor jeder Maschine, Werkzeugbereich direkt an der Reihe) sowie Maschinenliste Gabriela 2026-11-11 (Brother 3, Quaser 2, Hurco 1/3/7/8, Index; Quaser 1 ausser Betrieb). Offene Punkte: docs/FRAGEN.md. Koordinaten: Ursprung = vordere linke Innenecke (Stirnwand/linke Längswand), x nach rechts, y nach hinten. position = vordere linke Ecke des Objekts.; Ist-Korrekturen Roman 2026-11-21: Werkbank + Paletten Hurco 7 1.5 m in den Gang, Fertigteillager + KLT-Stapel 90° im Uhrzeigersinn; Ist-Korrektur Roman 2026-11-21 09:49: alle Werkbänke vor den Maschinen (mit Paletten) 1.5 m in den Gang wie bei Hurco 7; Ist-Korrektur Roman 2026-11-21 09:59: hinter den Maschinen 1.2 m frei (Maschinen samt Gruppen in den Gang, Brother offen)",
+  "hinweis": "Alle Lagen und Masse sind Schätzungen aus Fotos und Hallenplan (Roman 11.11.2026), Korrekturen Roman 2026-11-11 14:53/14:54 eingearbeitet (Tor 1 in der linken Längswand, Maschinenabstände 1.5–2.5 m, je ein Palettenplatz links/rechts vor jeder Maschine, Werkzeugbereich direkt an der Reihe) sowie Maschinenliste Gabriela 2026-11-11 (Brother 3, Quaser 2, Hurco 1/3/7/8, Index; Quaser 1 ausser Betrieb). Offene Punkte: docs/FRAGEN.md. Koordinaten: Ursprung = vordere linke Innenecke (Stirnwand/linke Längswand), x nach rechts, y nach hinten. position = vordere linke Ecke des Objekts.; Ist-Korrekturen Roman 2026-11-21: Werkbank + Paletten Hurco 7 1.5 m in den Gang, Fertigteillager + KLT-Stapel 90° im Uhrzeigersinn; Ist-Korrektur Roman 2026-11-21 09:49: alle Werkbänke vor den Maschinen (mit Paletten) 1.5 m in den Gang wie bei Hurco 7; Ist-Korrektur Roman 2026-11-21 09:59: hinter den Maschinen 1.2 m frei (Maschinen samt Gruppen in den Gang, Brother offen); Ist-Korrektur Roman 2026-11-22 07:00: Werktisch Brother um 180° gewendet (front -x); Ist-Korrekturen Roman 2026-11-22: Trennwand Werkzeugbereich/Brother gibt es nicht (entfernt), Schubladen-L gespiegelt (Querschenkel vorne, Bestätigung offen), 4 Werkzeugregale vorne links",
   "meta": {
     "positionBezug": "ecke",
     "hinweis": "Nur für den App-Loader: position ist die vordere linke Ecke, nicht die Mitte (siehe docs/SCHEMA.md)."
@@ -295,9 +295,10 @@
       "position": { "x": 5.7, "y": 28.9 },
       "groesse": { "b": 1.0, "t": 2.5, "h": 0.9 },
       "rotation": 0,
+      "front": "-x",
       "fotos": ["roman-13-brother-1-2.jpg"],
       "notizen": "Werktische mit Lochwand vor beiden Brother, gangseitig vor den Palettenplätzen; Rollwagen mit Spannvorrichtungen, Gitterboxen mit Karton und Fertigteilen.",
-      "quelle": "geschätzt aus Foto roman-13-brother-1-2.jpg (korr. 2026-11-12 UMFELD: auf den Zwischenraum Brother 2/3 gekürzt, Türen nicht mehr mittig verdeckt; t 5.1 → 2.5); Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 4.2)"
+      "quelle": "geschätzt aus Foto roman-13-brother-1-2.jpg (korr. 2026-11-12 UMFELD: auf den Zwischenraum Brother 2/3 gekürzt, Türen nicht mehr mittig verdeckt; t 5.1 → 2.5); Korrektur Roman 2026-11-21 09:49: «alle Werkbänke vor der Maschine 1,5m nach vorne schieben wie bei Hurco 7» – Gruppe 1.5 m von der Maschinenfront (+x) weg in den Gang (alt x 4.2); Korrektur Roman 2026-11-22 07:00: «der tisch bei Brother steht verkehrd rum diesen um 180° drehen» – um 180° gewendet: front bisher nicht gesetzt (App leitete +x ab: Arbeitsseite zum Gang, Lochwand zur Maschine) → -x (Arbeitsseite zur Maschine, Lochwand zum Gang, wie die anderen Werkbänke); Position und Grundfläche unverändert"
     },
     {
       "id": "palettenplatz-hurco-8-links",
@@ -557,20 +558,6 @@
     },
 
     {
-      "id": "wand-werkzeugbereich",
-      "name": "Trennwand Werkzeugbereich",
-      "typ": "wand",
-      "untertyp": "leichtbauwand",
-      "seite": "links",
-      "position": { "x": 0.0, "y": 27.0 },
-      "groesse": { "b": 5.5, "t": 0.15, "h": 2.5 },
-      "rotation": 0,
-      "geschaetzt": true,
-      "fotos": ["roman-15-werkzeugregale.jpg"],
-      "notizen": "Weisse freistehende Paneelwand hinter den 3 Werkzeugregalen, rechts davon der QS-Container (Master-Chief GRILL G40 a, 2026-11-12). Direkt vor Brother 2 (Werkzeugbereich schliesst ohne Palettenfläche an die Maschinenreihe an, Roman 2026-11-11 14:53). Länge geschätzt.",
-      "quelle": "Existenz GRILL G40 a (Master-Chief 2026-11-12, Foto roman-15); Länge/Lage geschätzt aus Foto roman-15-werkzeugregale.jpg"
-    },
-    {
       "id": "werkzeugbereich",
       "name": "Werkzeugbereich (Werkzeuglager + Einstellen)",
       "typ": "arbeitsplatz",
@@ -580,8 +567,8 @@
       "groesse": { "b": 6.0, "t": 6.8, "h": 0 },
       "rotation": 0,
       "fotos": ["roman-14-werkzeugplatz.jpg", "roman-15-werkzeugregale.jpg"],
-      "notizen": "Werkzeuglager und Werkzeug-Einstellplatz, schliesst direkt an die Maschinenreihe an (nach Brother 2 Richtung vorne, keine Palettenfläche dazwischen; Roman 2026-11-11 14:53). L-förmig blaue Schubladenschränke (Skrinka č. 1–7), Werkbank mit Spannfuttern/Einstellgerät, Lochwand, Werkzeugkatalog-Poster, Fenster. Drei Regale mit Werkzeugaufnahmen, Tonne PLASTY.",
-      "quelle": "Lage hallenplan.md L8, Anschluss an Maschinenreihe Roman 2026-11-11 14:53; Mass geschätzt aus Fotos roman-14-werkzeugplatz.jpg und roman-15-werkzeugregale.jpg",
+      "notizen": "Werkzeuglager und Werkzeug-Einstellplatz, schliesst direkt an die Maschinenreihe an (nach Brother 2 Richtung vorne, keine Palettenfläche dazwischen; Roman 2026-11-11 14:53). L-förmig blaue Schubladenschränke (Skrinka č. 1–7), Werkbank mit Spannfuttern/Einstellgerät, Lochwand, Werkzeugkatalog-Poster, Fenster. Vier Regale mit Werkzeugaufnahmen (vorne links, Roman 2026-11-22), keine Trennwand zu Brother 2 (Roman 2026-11-22 07:01), Tonne PLASTY.",
+      "quelle": "Lage hallenplan.md L8, Anschluss an Maschinenreihe Roman 2026-11-11 14:53; Mass geschätzt aus Fotos roman-14-werkzeugplatz.jpg und roman-15-werkzeugregale.jpg; Korrektur Roman 2026-11-22: «da gibts keine trennwad» (Trennwand wand-werkzeugbereich entfernt), L gespiegelt, 4 Werkzeugregale vorne links",
       "live_faehig": ["arbeitsplatz"]
     },
     {
@@ -606,27 +593,28 @@
       "untertyp": "schubladenschrank",
       "seite": "links",
       "teil_von": "werkzeugbereich",
-      "position": { "x": 1.0, "y": 26.1 },
+      "position": { "x": 1.0, "y": 20.4 },
       "groesse": { "b": 3.2, "t": 0.7, "h": 1.0 },
-      "front": "-y",
+      "front": "+y",
       "rotation": 0,
       "fotos": ["roman-14-werkzeugplatz.jpg"],
       "notizen": "Querschenkel des L mit Einstellgerät, Spannfuttern, Laptop.",
-      "quelle": "geschätzt aus Foto roman-14-werkzeugplatz.jpg"
+      "quelle": "geschätzt aus Foto roman-14-werkzeugplatz.jpg; Korrektur Roman 2026-11-22 09:47: «das L mit den Schränken steht so rum» – L gespiegelt (plausible Lesart, Bestätigung Roman offen): Querschenkel vom hinteren Ende (bei Brother) ans vordere Ende Richtung QS, Längsschenkel bleibt an der Wand (alt x 1.0 / y 26.1, front -y)"
     },
     {
       "id": "werkzeugregale",
-      "name": "Werkzeugregale (3 Stück, Aufnahmen SK/HSK)",
+      "name": "Werkzeugregale (4 Stück, Aufnahmen SK/HSK)",
       "typ": "regal",
       "untertyp": "werkzeugregal",
       "seite": "links",
       "teil_von": "werkzeugbereich",
-      "position": { "x": 2.6, "y": 20.6 },
-      "groesse": { "b": 3.3, "t": 0.8, "h": 1.8 },
+      "position": { "x": 1.6, "y": 17.6 },
+      "groesse": { "b": 4.4, "t": 0.8, "h": 1.8 },
       "rotation": 0,
+      "front": "+y",
       "fotos": ["roman-15-werkzeugregale.jpg"],
-      "notizen": "Drei freistehende Regale (Nr. 12, 13, ...) mit bestückten Werkzeugaufnahmen, Bohrern, Fräsern. Daneben Tonne PLASTY.",
-      "quelle": "geschätzt aus Foto roman-15-werkzeugregale.jpg"
+      "notizen": "Vier freistehende Regale (Roman 2026-11-22: es sind 4) (Nr. 12, 13, ...) mit bestückten Werkzeugaufnahmen, Bohrern, Fräsern. Daneben Tonne PLASTY.",
+      "quelle": "geschätzt aus Foto roman-15-werkzeugregale.jpg; Korrektur Roman 2026-11-22: «die werkzeugregale stehen vorne links und es sind 4 Regale» – 4 Regale (Modell: Anzahl = Breite / 1.1 m), Zeile vorne links vor dem L (neben OTK-Regal), Front +y zum Werkzeugbereich (alt x 2.6 / y 20.6, b 3.3 = 3 Regale, front abgeleitet)"
     },
 
     {
